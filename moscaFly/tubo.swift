@@ -20,8 +20,7 @@ class Tubo: SKSpriteNode {
         if(indiceTextura == 0){
             puntoY = y + texturaTubo.size().height / 2 + gapDificultad + compensacionTubos
         }else{
-            puntoY = y - texturaTubo.size().height / 2 - gapDificultad + compensacionTubos
-            
+            puntoY = y - texturaTubo.size().height / 2 - gapDificultad + compensacionTubos            
         }
         self.position = CGPoint(x:x , y: puntoY)
         self.zPosition = 1

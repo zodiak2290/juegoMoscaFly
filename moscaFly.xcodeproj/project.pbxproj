@@ -13,6 +13,9 @@
 		D619AE1C1E53ED9E00521AF5 /* Colisiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619AE1B1E53ED9E00521AF5 /* Colisiones.swift */; };
 		D619AE1E1E53F0DC00521AF5 /* tubo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619AE1D1E53F0DC00521AF5 /* tubo.swift */; };
 		D619AE211E53F5CC00521AF5 /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619AE201E53F5CC00521AF5 /* GameInfo.swift */; };
+		D619AE231E54D21F00521AF5 /* espacio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619AE221E54D21F00521AF5 /* espacio.swift */; };
+		D619AE271E54D4EA00521AF5 /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D619AE261E54D4EA00521AF5 /* fondo.jpg */; };
+		D619AE291E54D6E300521AF5 /* rana.png in Resources */ = {isa = PBXBuildFile; fileRef = D619AE281E54D6E300521AF5 /* rana.png */; };
 		D6E3C09C1E53BBF9000CD18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3C09B1E53BBF9000CD18C /* AppDelegate.swift */; };
 		D6E3C09E1E53BBF9000CD18C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C09D1E53BBF9000CD18C /* GameScene.sks */; };
 		D6E3C0A01E53BBF9000CD18C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C09F1E53BBF9000CD18C /* Actions.sks */; };
@@ -23,7 +26,6 @@
 		D6E3C0AC1E53BBF9000CD18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0AA1E53BBF9000CD18C /* LaunchScreen.storyboard */; };
 		D6E3C0B81E53BCD2000CD18C /* fly1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0B31E53BCD2000CD18C /* fly1.png */; };
 		D6E3C0B91E53BCD2000CD18C /* fly2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0B41E53BCD2000CD18C /* fly2.png */; };
-		D6E3C0BA1E53BCD2000CD18C /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0B51E53BCD2000CD18C /* fondo.png */; };
 		D6E3C0BB1E53BCD2000CD18C /* Tubo1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0B61E53BCD2000CD18C /* Tubo1.png */; };
 		D6E3C0BC1E53BCD2000CD18C /* Tubo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3C0B71E53BCD2000CD18C /* Tubo2.png */; };
 		D6E3C0BF1E53BD8A000CD18C /* mosca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3C0BE1E53BD8A000CD18C /* mosca.swift */; };
@@ -36,6 +38,9 @@
 		D619AE1B1E53ED9E00521AF5 /* Colisiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colisiones.swift; sourceTree = "<group>"; };
 		D619AE1D1E53F0DC00521AF5 /* tubo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tubo.swift; sourceTree = "<group>"; };
 		D619AE201E53F5CC00521AF5 /* GameInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
+		D619AE221E54D21F00521AF5 /* espacio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = espacio.swift; sourceTree = "<group>"; };
+		D619AE261E54D4EA00521AF5 /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
+		D619AE281E54D6E300521AF5 /* rana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rana.png; sourceTree = "<group>"; };
 		D6E3C0981E53BBF9000CD18C /* moscaFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moscaFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E3C09B1E53BBF9000CD18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6E3C09D1E53BBF9000CD18C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -48,7 +53,6 @@
 		D6E3C0AD1E53BBF9000CD18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E3C0B31E53BCD2000CD18C /* fly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly1.png; sourceTree = "<group>"; };
 		D6E3C0B41E53BCD2000CD18C /* fly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly2.png; sourceTree = "<group>"; };
-		D6E3C0B51E53BCD2000CD18C /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
 		D6E3C0B61E53BCD2000CD18C /* Tubo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo1.png; sourceTree = "<group>"; };
 		D6E3C0B71E53BCD2000CD18C /* Tubo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo2.png; sourceTree = "<group>"; };
 		D6E3C0BE1E53BD8A000CD18C /* mosca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mosca.swift; sourceTree = "<group>"; };
@@ -110,7 +114,8 @@
 				D6E3C0A31E53BBF9000CD18C /* GameViewController.swift */,
 				D6E3C0B31E53BCD2000CD18C /* fly1.png */,
 				D6E3C0B41E53BCD2000CD18C /* fly2.png */,
-				D6E3C0B51E53BCD2000CD18C /* fondo.png */,
+				D619AE261E54D4EA00521AF5 /* fondo.jpg */,
+				D619AE281E54D6E300521AF5 /* rana.png */,
 				D6E3C0B61E53BCD2000CD18C /* Tubo1.png */,
 				D6E3C0B71E53BCD2000CD18C /* Tubo2.png */,
 				D6E3C0A51E53BBF9000CD18C /* Main.storyboard */,
@@ -129,6 +134,7 @@
 				D619AE161E53DDF900521AF5 /* LabelPuntaje.swift */,
 				D619AE181E53E40200521AF5 /* suelo.swift */,
 				D619AE1D1E53F0DC00521AF5 /* tubo.swift */,
+				D619AE221E54D21F00521AF5 /* espacio.swift */,
 			);
 			name = elementos;
 			sourceTree = "<group>";
@@ -193,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E3C0A71E53BBF9000CD18C /* Main.storyboard in Resources */,
+				D619AE271E54D4EA00521AF5 /* fondo.jpg in Resources */,
 				D6E3C09E1E53BBF9000CD18C /* GameScene.sks in Resources */,
-				D6E3C0BA1E53BCD2000CD18C /* fondo.png in Resources */,
 				D6E3C0A91E53BBF9000CD18C /* Assets.xcassets in Resources */,
 				D6E3C0AC1E53BBF9000CD18C /* LaunchScreen.storyboard in Resources */,
 				D6E3C0A01E53BBF9000CD18C /* Actions.sks in Resources */,
@@ -202,6 +208,7 @@
 				D6E3C0B91E53BCD2000CD18C /* fly2.png in Resources */,
 				D6E3C0BC1E53BCD2000CD18C /* Tubo2.png in Resources */,
 				D6E3C0B81E53BCD2000CD18C /* fly1.png in Resources */,
+				D619AE291E54D6E300521AF5 /* rana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 			files = (
 				D619AE191E53E40200521AF5 /* suelo.swift in Sources */,
 				D619AE211E53F5CC00521AF5 /* GameInfo.swift in Sources */,
+				D619AE231E54D21F00521AF5 /* espacio.swift in Sources */,
 				D619AE171E53DDF900521AF5 /* LabelPuntaje.swift in Sources */,
 				D6E3C0A21E53BBF9000CD18C /* GameScene.swift in Sources */,
 				D619AE1C1E53ED9E00521AF5 /* Colisiones.swift in Sources */,

@@ -12,13 +12,13 @@ class Fondo: SKSpriteNode {
     
     var animacionVuelo : SKAction?
     
-    let texturaFondo = SKTexture(imageNamed:"fondo.png")
+    let texturaFondo = SKTexture(imageNamed:"fondo.jpg")
     var movimientoInfinitoFondo: SKAction?
     
     init(altura: CGFloat, origenX: CGFloat, origenY: CGFloat) {
         super.init(texture: texturaFondo, color: UIColor.clear, size: texturaFondo.size())
         
-        let movimientoFondo = SKAction.move(by: CGVector(dx: -texturaFondo.size().width, dy:0), duration:8)
+        let movimientoFondo = SKAction.move(by: CGVector(dx: -texturaFondo.size().width, dy:0), duration: 10)
         let movimientoFondoOrigen = SKAction.move(by: CGVector(dx: texturaFondo.size().width, dy:0), duration:0)
             self.movimientoInfinitoFondo = SKAction.repeatForever(SKAction.sequence([movimientoFondo,movimientoFondoOrigen]))
         self.zPosition = -1
